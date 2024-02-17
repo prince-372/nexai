@@ -48,9 +48,9 @@ const Blockchain = () => {
         },
       },
       {
-        breakpoint: 850,
+        breakpoint: 900,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -58,7 +58,7 @@ const Blockchain = () => {
       {
         breakpoint: 700,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -116,56 +116,56 @@ const Blockchain = () => {
       >
         <Slider {...settings}>
           <div className="">
-            <div className=" bg-poligunbg bg-no-repeat bg-center flex flex-col items-center justify-center max-w-full w-[350px] h-[350px]">
+            <div className=" bg-poligunbg bg-no-repeat bg-center flex flex-col items-center justify-center max-w-full w-[350px] h-[365px]">
               <div className=" w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full text-white   circle-shadow text-center">
                 <p className=" font-bold font-recharge text-[32px] leading-[51px]">
                   1
                 </p>
               </div>
               <div>
-                <p className="font-bold font-recharge text-[20px] leading-[32px] text-[#fff] text-center max-w-[212px] mx-auto">
+                <p className="font-bold pt-[30px] font-recharge text-[20px] leading-[32px] text-[#fff] text-center max-w-[212px] mx-auto">
                   Security and Privacy
                 </p>
               </div>
             </div>
           </div>
           <div className="  pt-[50px]">
-            <div className=" bg-poligunbg bg-no-repeat bg-center flex flex-col items-center justify-center max-w-full w-[350px] h-[350px]">
+            <div className=" bg-poligunbg bg-no-repeat bg-center flex flex-col items-center justify-center max-w-full w-[350px] h-[365px]">
               <div className=" w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full text-white  circle-shadow text-center">
                 <p className=" font-bold font-recharge text-[32px] leading-[51px]">
                   2
                 </p>
               </div>
               <div>
-                <p className="font-bold font-recharge text-[20px] leading-[32px] text-[#fff] text-center max-w-[212px] mx-auto">
+                <p className="font-bold font-recharge pt-[30px] text-[20px] leading-[32px] text-[#fff] text-center max-w-[212px] mx-auto">
                   Transparent and Reliable Data Management
                 </p>
               </div>
             </div>
           </div>
           <div className="">
-            <div className=" bg-poligunbg bg-no-repeat bg-center flex flex-col items-center justify-center max-w-full w-[350px] h-[350px]">
+            <div className=" bg-poligunbg bg-no-repeat bg-center flex flex-col items-center justify-center max-w-full w-[350px] h-[365px]">
               <div className=" w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full text-white  circle-shadow text-center">
                 <p className=" font-bold font-recharge text-[32px] leading-[51px]">
                   3
                 </p>
               </div>
               <div>
-                <p className="font-bold font-recharge text-[20px] leading-[32px] text-[#fff] text-center max-w-[212px] mx-auto">
+                <p className="font-bold font-recharge pt-[30px] text-[20px] leading-[32px] text-[#fff] text-center max-w-[212px] mx-auto">
                   Self-learning and Personalization
                 </p>
               </div>
             </div>
           </div>
           <div className=" pt-[50px]">
-            <div className=" bg-poligunbg bg-no-repeat bg-center flex flex-col items-center justify-center max-w-full w-[350px] h-[350px]">
+            <div className=" bg-poligunbg bg-no-repeat bg-center flex flex-col items-center justify-center max-w-full w-[350px] h-[365px]">
               <div className=" w-[58px] h-[58px] flex flex-col items-center justify-center rounded-full text-white  circle-shadow text-center">
                 <p className=" font-bold font-recharge text-[32px] leading-[51px]">
                   4
                 </p>
               </div>
               <div>
-                <p className="font-bold font-recharge text-[20px] leading-[32px] text-[#fff] text-center max-w-[212px] mx-auto">
+                <p className="font-bold font-recharge text-[20px] leading-[32px] text-[#fff] text-center max-w-[212px] mx-auto pt-[30px]">
                   Automated and Transparent Transactions
                 </p>
               </div>
