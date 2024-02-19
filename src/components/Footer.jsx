@@ -9,9 +9,9 @@ const Footersection = () => {
                         <div className=' lg:col-span-2 pt-7 sm:pt-10'>
                                 <h3 className=' font-recharge font-bold text-[13px] sm:text-[16px] leading-[25px] text-[#B4B4B4] max-w-[356px] pb-[20px]'>Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</h3>
                                 <div className=' flex items-center gap-3'>
-                                        <a className=' duration-300 hover:-translate-y-2 hover:scale-110' href=""><Facebook/></a>
-                                        <a className=' duration-300 hover:-translate-y-2 hover:scale-110' href=""><Twiter/></a>
-                                        <a className=' duration-300 hover:-translate-y-2 hover:scale-110' href=""><Taligram/></a>
+                                        <a className=' duration-300 hover:-translate-y-2 hover:scale-110' href="https://www.facebook.com/" target='_blank'><Facebook/></a>
+                                        <a className=' duration-300 hover:-translate-y-2 hover:scale-110' href="https://twitter.com/?lang=en" target='_blank'><Twiter/></a>
+                                        <a className=' duration-300 hover:-translate-y-2 hover:scale-110' href="https://web.telegram.org/k/" target='_blank'><Taligram/></a>
                                 </div>
                         </div>
                         

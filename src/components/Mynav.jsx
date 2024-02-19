@@ -25,7 +25,7 @@ const Mynav = () => {
               <a
                 onClick={show}
                 className="text-[16px] font-medium text-[#FFFFFF] font-poppins no-underline leading-[100%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-white after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear"
-                href="#"
+                href="#home"
               >
                 Home
               </a>
@@ -34,7 +34,7 @@ const Mynav = () => {
               <a
                 onClick={show}
                 className="text-[16px] font-medium text-[#FFFFFF] font-poppins no-underline leading-[100%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-white after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear"
-                href="#"
+                href="#Marketplace"
               >
                 Marketplace
               </a>
@@ -43,7 +43,7 @@ const Mynav = () => {
               <a
                 onClick={show}
                 className="text-[16px] text-[#ffffff] font-medium font-poppins no-underline leading-[100%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-white after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear"
-                href="#"
+                href="#About"
               >
                 About
               </a>
@@ -52,7 +52,7 @@ const Mynav = () => {
               <a
                 onClick={show}
                 className=" text-[16px] text-[#ffffff] font-medium font-poppins no-underline leading-[100%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-white after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear"
-                href="#"
+                href="#NexChat"
               >
                 NexChat
               </a>
@@ -61,7 +61,7 @@ const Mynav = () => {
               <a
                 onClick={show}
                 className="text-[16px]  font-medium text-[#FFFFFF] font-poppins no-underline leading-[100%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-white after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear"
-                href="#"
+                href="#Tokens"
               >
                 Tokens
               </a>
