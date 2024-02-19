@@ -4,7 +4,7 @@ import { Clock, Satting } from "./Icons";
 const Unique = () => {
   return (
     <div className=" max-w-[1364px] px-3 mx-auto sm:pt-[120px] pt-8">
-      <div className=" bg-bgscroll bg-no-repeat bg-center bg-cover h-[800px] border rounded-[32px] sm:p-16 p-3">
+      <div className=" bg-bgscroll bg-no-repeat bg-center bg-cover h-[800px] border rounded-[32px] sm:p-14 p-3">
         <h2 data-aos="zoom-in" className="font-bold text-[40px] leading-[50px] font-recharge text-[#fff] text-center ">
           Unique features
         </h2>

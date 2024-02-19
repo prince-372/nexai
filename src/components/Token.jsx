@@ -56,52 +56,55 @@ const Token = () => {
               </div>
               <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
                 <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
-                  Purchasing Nexai Products
+                  Loyalty and Rewards
                 </h3>
                 <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
-                  Nex AI tokens will be the primary currency for acquiring
-                  Nexai's extensive range of software solutions, hardware
-                  devices, including drones and sensors, and other smart home
-                  products available on the Nexai marketplace. Users can
-                  confidently make purchases using Nex tokens, enjoying the
-                  convenience and flexibility of a token-based payment system.
+                  The Nexai ecosystem will feature a robust loyalty program,
+                  rewarding users with Nex AI tokens for their active
+                  engagement, ongoing participation, and dedicated usage of
+                  Nexai's products and services. Token holders will have the
+                  opportunity to redeem their accumulated rewards for discounts,
+                  incentives, or exclusive offers, fostering a strong sense of
+                  loyalty and encouraging continued involvement.
                 </p>
               </div>
               <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
                 <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
-                Accessing Exclusive Content
+                  Participating in Governance{" "}
                 </h3>
                 <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
-                  By holding Nex AI tokens, users will gain privileged access to
-                  exclusive content within the Nexai platform. These tokens will
-                  unlock premium features, advanced functionalities, and
-                  specialized services, enabling users to fully explore and
-                  enjoy the enhanced capabilities of Nexai's ecosystem.
+                  Nex AI token holders will play a vital role in the governance
+                  of the Nexai ecosystem. Through voting mechanisms, token
+                  holders will have a direct say in the decision-making process.
+                  They can express their opinions, vote on proposed changes or
+                  improvements, and actively contribute to shaping the future
+                  development and direction of the Nexai ecosystem.
                 </p>
               </div>
               <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
                 <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
-                  Purchasing Nexai Products
+                  Peer-to-Peer Transactions{" "}
                 </h3>
                 <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
-                  Nex AI tokens will be the primary currency for acquiring
-                  Nexai's extensive range of software solutions, hardware
-                  devices, including drones and sensors, and other smart home
-                  products available on the Nexai marketplace. Users can
-                  confidently make purchases using Nex tokens, enjoying the
-                  convenience and flexibility of a token-based payment system.
+                  Nex AI tokens will enable seamless peer-to-peer transactions
+                  within the Nexai community. Users will have the ability to
+                  exchange tokens with others for various purposes, such as
+                  purchasing pre-owned Nexai devices, engaging in token trading
+                  activities, or conducting value exchanges directly within the
+                  ecosystem, all with the utmost security and convenience.
                 </p>
               </div>
               <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
                 <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
-                Accessing Exclusive Content
+                  Token Staking and Rewards{" "}
                 </h3>
                 <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
-                By holding Nex AI tokens, users will gain privileged access to
-                  exclusive content within the Nexai platform. These tokens will
-                  unlock premium features, advanced functionalities, and
-                  specialized services, enabling users to fully explore and
-                  enjoy the enhanced capabilities of Nexai's ecosystem.
+                  Nex AI tokens will support staking mechanisms, allowing users
+                  to lock up their tokens for a specified period. By staking
+                  their tokens, users will earn additional rewards, such as
+                  interest, dividends, or other incentives, further
+                  incentivizing token holding and fostering long-term engagement
+                  and loyalty.
                 </p>
               </div>
             </div>
