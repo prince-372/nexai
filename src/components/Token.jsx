@@ -27,34 +27,85 @@ const Token = () => {
               />
             </div>
           </div>
-          <div className='ps-2 my-[63px] h-[512px] overflow-y-scroll my-scroll'>
-                        <div className='after:flex after:w-[10px] relative after:absolute after:top-0 after:h-full after:rounded-full after:bg-[#02CDCF] flex flex-col after:z-0'>
-                            <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
-                                <h3 className=' min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white'>Purchasing Nexai Products</h3>
-                                <p className='min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]'>Nex AI tokens will be the primary currency for acquiring Nexai's extensive range of software solutions, hardware devices, including drones and sensors, and other smart home products available on the Nexai marketplace. Users can confidently make purchases using Nex tokens, enjoying the convenience and flexibility of a token-based payment system.</p>
-                            </div>
-                            <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
-                                <h3 className=' min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white'>Purchasing Nexai Products</h3>
-                                <p className='min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]'>Nex AI tokens will be the primary currency for acquiring Nexai's extensive range of software solutions, hardware devices, including drones and sensors, and other smart home products available on the Nexai marketplace. Users can confidently make purchases using Nex tokens, enjoying the convenience and flexibility of a token-based payment system.</p>
-                            </div>
-                            <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
-                                <h3 className=' min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white'>Purchasing Nexai Products</h3>
-                                <p className='min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]'>Nex AI tokens will be the primary currency for acquiring Nexai's extensive range of software solutions, hardware devices, including drones and sensors, and other smart home products available on the Nexai marketplace. Users can confidently make purchases using Nex tokens, enjoying the convenience and flexibility of a token-based payment system.</p>
-                            </div>
-                            <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
-                                <h3 className=' min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white'>Purchasing Nexai Products</h3>
-                                <p className='min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]'>Nex AI tokens will be the primary currency for acquiring Nexai's extensive range of software solutions, hardware devices, including drones and sensors, and other smart home products available on the Nexai marketplace. Users can confidently make purchases using Nex tokens, enjoying the convenience and flexibility of a token-based payment system.</p>
-                            </div>
-                            <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
-                                <h3 className=' min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white'>Purchasing Nexai Products</h3>
-                                <p className='min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]'>Nex AI tokens will be the primary currency for acquiring Nexai's extensive range of software solutions, hardware devices, including drones and sensors, and other smart home products available on the Nexai marketplace. Users can confidently make purchases using Nex tokens, enjoying the convenience and flexibility of a token-based payment system.</p>
-                            </div>
-                            <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
-                                <h3 className=' min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white'>Purchasing Nexai Products</h3>
-                                <p className='min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]'>Nex AI tokens will be the primary currency for acquiring Nexai's extensive range of software solutions, hardware devices, including drones and sensors, and other smart home products available on the Nexai marketplace. Users can confidently make purchases using Nex tokens, enjoying the convenience and flexibility of a token-based payment system.</p>
-                            </div>
-                        </div>
-                    </div>
+          <div className="ps-2 my-[63px] h-[512px] overflow-y-scroll my-scroll">
+            <div className="after:flex after:w-[10px] relative after:absolute after:top-0 after:h-full after:rounded-full after:bg-[#02CDCF] flex flex-col after:z-0">
+              <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
+                <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
+                  Purchasing Nexai Products
+                </h3>
+                <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
+                  Nex AI tokens will be the primary currency for acquiring
+                  Nexai's extensive range of software solutions, hardware
+                  devices, including drones and sensors, and other smart home
+                  products available on the Nexai marketplace. Users can
+                  confidently make purchases using Nex tokens, enjoying the
+                  convenience and flexibility of a token-based payment system.
+                </p>
+              </div>
+              <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
+                <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
+                  Accessing Exclusive Content
+                </h3>
+                <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
+                  By holding Nex AI tokens, users will gain privileged access to
+                  exclusive content within the Nexai platform. These tokens will
+                  unlock premium features, advanced functionalities, and
+                  specialized services, enabling users to fully explore and
+                  enjoy the enhanced capabilities of Nexai's ecosystem.
+                </p>
+              </div>
+              <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
+                <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
+                  Purchasing Nexai Products
+                </h3>
+                <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
+                  Nex AI tokens will be the primary currency for acquiring
+                  Nexai's extensive range of software solutions, hardware
+                  devices, including drones and sensors, and other smart home
+                  products available on the Nexai marketplace. Users can
+                  confidently make purchases using Nex tokens, enjoying the
+                  convenience and flexibility of a token-based payment system.
+                </p>
+              </div>
+              <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
+                <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
+                Accessing Exclusive Content
+                </h3>
+                <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
+                  By holding Nex AI tokens, users will gain privileged access to
+                  exclusive content within the Nexai platform. These tokens will
+                  unlock premium features, advanced functionalities, and
+                  specialized services, enabling users to fully explore and
+                  enjoy the enhanced capabilities of Nexai's ecosystem.
+                </p>
+              </div>
+              <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
+                <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
+                  Purchasing Nexai Products
+                </h3>
+                <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
+                  Nex AI tokens will be the primary currency for acquiring
+                  Nexai's extensive range of software solutions, hardware
+                  devices, including drones and sensors, and other smart home
+                  products available on the Nexai marketplace. Users can
+                  confidently make purchases using Nex tokens, enjoying the
+                  convenience and flexibility of a token-based payment system.
+                </p>
+              </div>
+              <div className="min-[567px]:mb-[60px] mb-[20px] relative before:w-6 before:h-6 before:rounded-full before:bg-white before:absolute before:-left-[6px] before:top-1/2 before:-translate-y-1/2 pl-[42px] sm:pl-20 before:z-10">
+                <h3 className=" min-[567px]:text-2xl text-[18px] min-[567px]:pb-4 font-bold font-recharge leading-6 text-white">
+                Accessing Exclusive Content
+                </h3>
+                <p className="min-[567px]:text-base text-[12px] font-poppins min-[567px]:leading-[25px] font-normal text-[#B4B4B4]">
+                By holding Nex AI tokens, users will gain privileged access to
+                  exclusive content within the Nexai platform. These tokens will
+                  unlock premium features, advanced functionalities, and
+                  specialized services, enabling users to fully explore and
+                  enjoy the enhanced capabilities of Nexai's ecosystem.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="flex md:flex-row flex-col justify-between items-center sm:mt-[287px] mt-0 pb-[65px]">
           <div data-aos="zoom-in" className="max-md:pb-5">
