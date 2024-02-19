@@ -81,7 +81,7 @@ const Unique = () => {
               </div>
             </div>
             <div className=" col-span-1 flex justify-end flex-col items-end">
-              <div className=" max-w-[364px] mt-[50px] sm:mt-[260px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" max-w-[364px] mt-[50px] sm:mt-[190px] max-h-[400px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Clock />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">

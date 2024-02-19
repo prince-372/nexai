@@ -9,7 +9,7 @@ const Assistant = () => {
       <div className=" absolute w-[231px] h-[231px] blur-[153px] bg-[#02CDCF] md:left-[10%] left-[12%] md:bottom-[30%] bottom-[40%] "></div>
       <div className=" max-w-[1180px] px-3 mx-auto ">
         <div className=" grid md:grid-cols-2 grid-cols-1 items-center">
-          <div className=" pb-[51px]">
+          <div className=" pb-[51px] flex justify-center lg:justify-start">
             <img data-aos="zoom-in" src={hand} alt="hand" />
           </div>
           <div
