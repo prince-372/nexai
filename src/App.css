@@ -25,11 +25,6 @@ body {
   display: none;
 }
 
-/* @font-face {
-  font-family: "neuropolitical";
-  src: url('./assets/fonts/neuropoliticalrg.otf')
+*{
+  scroll-behavior: smooth;
 }
-
-.font-neuro {
-  font-family: "neuropolitical";
-} */
