@@ -4,8 +4,12 @@ import ai from "../assets/image/AI-img.webp";
 
 const Nexai = () => {
   return (
-    <div className=" max-w-[1310px] px-3 mx-auto sm:pt-[160px] pt-8">
-      <div data-aos="zoom-in" className="bg-bg-sec bg-no-repeat bg-center bg-cover bg-[#101219] border rounded-[24px]">
+    <div className=" max-w-[1310px] px-3 mx-auto sm:pt-[160px] pt-8 ">
+      <div
+        data-aos="zoom-in"
+        className="bg-bg-sec bg-no-repeat bg-center bg-cover bg-[#101219] border rounded-[24px] relative"
+      >
+        <div className=" absolute w-[302px] h-[262px] blur-[171px] bg-[#02CDCF] right-[7%] top-[33%] hidden md:block"></div>
         <div className="sm:p-[100px] p-3">
           <div className=" grid lg:grid-cols-2 grid-cols-1 ">
             <div className=" order-2 lg:order-1 flex flex-col justify-center  ">

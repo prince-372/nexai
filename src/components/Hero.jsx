@@ -7,7 +7,7 @@ const Hero = () => {
     <div
       id="home"
       className=" bg-bg-hero bg-center bg-cover bg-no-repeat sm:min-h-[88vh] min-h-0 bg-[#040505] px-8"
-    >
+      >
       <Mynav />
       <div className=" max-w-[1140px] px-3 mx-auto pt-10">
         <h2 className=" font-bold sm:text-[60px] text-[31px] sm:leading-[75px] leading-[42px] font-recharge text-[#02CDCF] max-w-[577px]">
