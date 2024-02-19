@@ -95,7 +95,7 @@ const Blockchain = () => {
         </h2>
         <p
           data-aos="zoom-in"
-          className=" text-base font-normal leading-[25px] font-poppins text-[#B4B4B4] text-center pt-4"
+          className=" text-base font-normal leading-[25px] font-poppins text-[#B4B4B4] text-center pt-4 max-w-[997px] mx-auto"
         >
           Nexai is an advanced home assistant that will revolutionize the way we
           interact with our smart devices at home. Powered by sophisticated

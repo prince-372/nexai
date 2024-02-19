@@ -95,13 +95,19 @@ const Nexaidoes = () => {
   };
 
   return (
-    <div className=" relative overflow-x-clip">
+    <div id="about" className=" relative overflow-x-clip">
       <img className=" absolute left-[-1%] top-[-5%]" src={left} alt="left" />
       <div className=" absolute w-[233px] h-[233px] blur-[171px] bg-[#02CDCF] right-[-10%] top-[-1%] hidden md:block"></div>
-      <h2 data-aos="zoom-in" className=" font-bold sm:text-[40px] text-[31px] sm:leading-[50px] leading-[42px] font-recharge text-[#02CDCF] max-w-[760px] mx-auto sm:pt-[100px] pt-8 text-center lg:text-start">
+      <h2
+        data-aos="zoom-in"
+        className=" font-bold sm:text-[40px] text-[31px] sm:leading-[50px] leading-[42px] font-recharge text-[#02CDCF] max-w-[760px] mx-auto sm:pt-[100px] pt-8 text-center lg:text-start"
+      >
         NexAi does all this. And more.
       </h2>
-      <p data-aos="zoom-in" className=" font-medium text-base leading-[25px] font-poppins text-[#B4B4B4] max-w-[912px] mx-auto text-center pt-4 pb-4 sm:pb-[90px]">
+      <p
+        data-aos="zoom-in"
+        className=" font-medium text-base leading-[25px] font-poppins text-[#B4B4B4] max-w-[912px] mx-auto text-center pt-4 pb-4 sm:pb-[90px]"
+      >
         Nexai is an advanced home assistant that will revolutionize the way we
         interact with our smart devices at home. Powered by sophisticated
         artificial intelligence, it leverages blockchain technology to offer a

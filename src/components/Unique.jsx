@@ -3,20 +3,29 @@ import { Clock, Satting } from "./Icons";
 
 const Unique = () => {
   return (
-    <div className=" max-w-[1364px] px-3 mx-auto sm:pt-[120px] pt-8">
+    <div
+      id="Marketplace"
+      className=" max-w-[1364px] px-3 mx-auto sm:pt-[120px] pt-8"
+    >
       <div className=" bg-bgscroll bg-no-repeat bg-center bg-cover h-[800px] border rounded-[32px] sm:p-14 p-3">
-        <h2 data-aos="zoom-in" className="font-bold text-[40px] leading-[50px] font-recharge text-[#fff] text-center ">
+        <h2
+          data-aos="zoom-in"
+          className="font-bold text-[40px] leading-[50px] font-recharge text-[#fff] text-center "
+        >
           Unique features
         </h2>
-        <p data-aos="zoom-in" className=" font-normal text-[16px] leading-[25px] font-poppins text-center text-[#B6B6B6] max-w-[397px] mx-auto pt-4">
+        <p
+          data-aos="zoom-in"
+          className=" font-normal text-[16px] leading-[25px] font-poppins text-center text-[#B6B6B6] max-w-[397px] mx-auto pt-4"
+        >
           ability to engage in natural, fluent conversations in over 15
           languages,
         </p>
         <div className=" h-[496px] overflow-y-scroll my-scroll">
           <div className=" grid md:grid-cols-2 grid-cols-1 mt-[80px]">
             <div className=" col-span-1">
-              <div className=" max-w-[364px] max-h-[400px] rounded-[16px] border bg-[#fff]">
-                <div  className=" sm:py-6 py-2 sm:px-8 px-2">
+              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+                <div className="  sm:py-6 py-2 sm:px-8 px-2">
                   <Satting />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0 ">
                     Remote Access and File Management
@@ -31,7 +40,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
+              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Satting />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -47,7 +56,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
+              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Satting />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -63,7 +72,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
+              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Satting />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -81,7 +90,7 @@ const Unique = () => {
               </div>
             </div>
             <div className=" col-span-1 flex justify-end flex-col items-end">
-              <div className=" max-w-[364px] mt-[50px] sm:mt-[190px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[190px] max-h-[400px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Clock />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -97,7 +106,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Clock />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -113,7 +122,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Clock />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -129,7 +138,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Clock />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
