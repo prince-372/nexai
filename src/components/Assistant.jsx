@@ -16,7 +16,7 @@ const Assistant = () => {
             data-aos="zoom-in"
             className=" flex flex-col items-center md:items-start text-center md:text-start"
           >
-            <h2 className=" font-bold text-[40px] leading-[50px] font-recharge text-[#02CDCF]">
+            <h2 className=" font-bold sm:text-[40px] text-[31px]  leading-[50px] font-recharge text-[#02CDCF]">
               Ai-Powered Home Assistant
             </h2>
             <p className=" text-[16px] leading-[25px] font-medium text-[#B4BCBD] max-w-[517px] pt-4 font-poppins">

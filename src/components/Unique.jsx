@@ -13,7 +13,7 @@ const Unique = () => {
 
         <h2
           data-aos="zoom-in"
-          className="font-bold text-[40px] leading-[50px] font-recharge text-[#fff] text-center "
+          className="font-bold sm:text-[40px] text-[31px]  leading-[50px] font-recharge text-[#fff] text-center "
         >
           Unique features
         </h2>

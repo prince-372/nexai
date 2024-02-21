@@ -16,7 +16,7 @@ const Nexai = () => {
         <div className="sm:px-[100px] px-3 sm:py-[163px] py-3">
           <div className=" grid lg:grid-cols-2 grid-cols-1 ">
             <div className=" order-2 lg:order-1 flex flex-col justify-center  ">
-              <h2 className="font-bold sm:text-[40px] text-[26px] sm:leading-[50px] leading-[42px] font-recharge text-[#02CDCF]  ">
+              <h2 className="font-bold sm:text-[40px] text-[31px] sm:leading-[50px] leading-[42px] font-recharge text-[#02CDCF]  ">
                 What is NexAi?
               </h2>
               <p className="text-[16px] leading-[25px] font-medium text-[#B4BCBD] max-w-[490px] pt-4 font-poppins text-start">

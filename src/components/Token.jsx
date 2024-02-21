@@ -112,10 +112,10 @@ const Token = () => {
         </div>
         <div className="flex md:flex-row flex-col justify-between items-center sm:mt-[287px] mt-0 pb-[65px]">
           <div data-aos="zoom-in" className="max-md:pb-5">
-            <h2 className="text-[40px] font-recharge font-bold leading-[52px] text-white text-center lg:text-start">
+            <h2 className="sm:text-[40px] text-[31px] font-recharge font-bold sm:leading-[52px] leading-[36px] text-white text-center lg:text-start">
               Ready to get started
             </h2>
-            <h2 className=" text-[40px] font-recharge text-[#02CDCF] font-bold leading-[52px] text-center lg:text-start">
+            <h2 className=" sm:text-[40px] text-[31px] font-recharge text-[#02CDCF] font-bold sm:leading-[52px] leading-[36px] text-center lg:text-start">
               Talk to us Today
             </h2>
           </div>
