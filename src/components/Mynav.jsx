@@ -34,7 +34,7 @@ const Mynav = () => {
               <a
                 onClick={show}
                 className="text-[16px] font-normal text-[#FFFFFF] font-poppins no-underline leading-[100%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-white after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear"
-                href="#Marketplace"
+                href="#features"
               >
                 Marketplace
               </a>

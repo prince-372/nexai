@@ -95,7 +95,7 @@ const Nexaidoes = () => {
   };
 
   return (
-    <div id="about" className=" relative overflow-x-clip">
+    <div id="About" className=" relative overflow-x-clip">
       <img className=" absolute left-[-1%] top-[-5%]" src={left} alt="left" />
       <div className=" absolute w-[233px] h-[233px] blur-[171px] bg-[#02CDCF] right-[-10%] top-[-1%] hidden md:block"></div>
       <h2

@@ -8,7 +8,7 @@ module.exports = {
       },
       backgroundImage: {
         "bg-hero": "url('../src/assets/image/bg-hero-img.webp')",
-        "bg-sec": "url('../src/assets/image/AI-imgbg.webp')",
+        "bg-sec": "url('../src/assets/image/ai-imgbg.webp')",
         bgscroll: "url('../src/assets/image/scroll_bg.webp')",
         footerbg: "url('../src/assets/image/footer-img.webp')",
         poligunbg: "url('../src/assets/image/poligan-img.webp')",

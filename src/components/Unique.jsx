@@ -4,10 +4,13 @@ import { Clock, Satting } from "./Icons";
 const Unique = () => {
   return (
     <div
-      id="Marketplace"
+      id="features"
       className=" max-w-[1364px] px-3 mx-auto sm:pt-[120px] pt-8"
     >
-      <div className=" bg-bgscroll bg-no-repeat bg-center bg-cover h-[800px] border rounded-[32px] sm:p-14 p-3">
+      <div className=" bg-bgscroll bg-no-repeat bg-center bg-cover h-[800px] border rounded-[32px] sm:p-14 p-3 relative overflow-hidden">
+        <div className=" absolute w-[302px] h-[262px] blur-[171px] bg-[#02CDCF] right-[-18%] top-[5%] hidden md:block"></div>
+        <div className=" absolute w-[302px] h-[262px] blur-[171px] bg-[#02CDCF] left-[-18%] bottom-[5%] hidden md:block"></div>
+
         <h2
           data-aos="zoom-in"
           className="font-bold text-[40px] leading-[50px] font-recharge text-[#fff] text-center "
@@ -24,7 +27,7 @@ const Unique = () => {
         <div className=" h-[496px] overflow-y-scroll my-scroll">
           <div className=" grid md:grid-cols-2 grid-cols-1 mt-[80px]">
             <div className=" col-span-1">
-              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] rounded-[16px] border bg-[#fff] z-10 relative">
                 <div className="  sm:py-6 py-2 sm:px-8 px-2">
                   <Satting />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0 ">
@@ -40,7 +43,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
+              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Satting />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -56,7 +59,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
+              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Satting />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -72,7 +75,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
+              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Satting />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -90,7 +93,7 @@ const Unique = () => {
               </div>
             </div>
             <div className=" col-span-1 flex justify-end flex-col items-end">
-              <div className=" hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[190px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[190px] max-h-[400px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Clock />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -106,7 +109,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Clock />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -122,7 +125,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Clock />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
@@ -138,7 +141,7 @@ const Unique = () => {
                   </p>
                 </div>
               </div>
-              <div className=" hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
+              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
                 <div className=" sm:py-6 py-2 sm:px-8 px-2">
                   <Clock />
                   <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">

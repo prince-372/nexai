@@ -82,7 +82,7 @@ const Blockchain = () => {
     ],
   };
   return (
-    <div className=" relative overflow-x-clip">
+    <div id="NexChat" className=" relative overflow-x-clip">
       <div className=" absolute w-[302px] h-[262px] blur-[171px] bg-[#02CDCF] right-[-10%] top-[10%] hidden md:block"></div>
       <div className=" absolute w-[302px] h-[262px] blur-[171px] bg-[#02CDCF] left-[-10%] top-[21%] hidden md:block"></div>
       <img className=" absolute right-0" src={right} alt="right" />
