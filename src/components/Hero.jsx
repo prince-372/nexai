@@ -5,7 +5,7 @@ import Mynav from "./Mynav";
 function Hero() {
   return (
     <div className="lg:px-12 px-5 relative z-[1] min-h-screen overflow-hidden">
-      <div className="sm:pt-[13px] pt-0 bg-bg-hero flex bg-center flex-col max-lg:bg-cover lg:bg-BgSize object-cover bg-no-repeat min-h-[95vh] z-10">
+      <div className="sm:pt-[13px] pt-0 bg-bg-hero flex bg-center flex-col max-lg:bg-cover lg:bg-BgSize object-cover bg-no-repeat min-h-[95vh] z-10 mt-2">
         <Mynav />
         <div className="flex-grow flex justify-center flex-col" id="home">
           <div className="max-w-[1140px] px-3 xl:pl-36 ">
