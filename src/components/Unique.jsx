@@ -1,5 +1,5 @@
 import React from "react";
-import { Clock, Satting } from "./Icons";
+import { Clock, Line, Massage, Satting } from "./Icons";
 
 const Unique = () => {
   return (
@@ -25,137 +25,61 @@ const Unique = () => {
           languages,
         </p>
         <div className=" h-[496px] overflow-y-scroll my-scroll">
-          <div className=" grid md:grid-cols-2 grid-cols-1 mt-[80px]">
-            <div className=" col-span-1">
-              <div className=" hover:scale-90 duration-300 max-w-[364px] max-h-[400px] rounded-[16px] border bg-[#fff] z-10 relative">
-                <div className="  sm:py-6 py-2 sm:px-8 px-2">
-                  <Satting />
-                  <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0 ">
-                    Remote Access and File Management
-                  </p>
-                  <p className=" text-bace leading-[25px] font-normal font poppins max-w-[316px] sm:pt-[10px] pt-0 pb-3">
-                    {" "}
-                    Imagine you're at work, and you realize you forgot to bring
-                    an important file stored on your desktop computer at home.
-                    No worries! Simply open the Nexai app on your phone,
-                    initiate a call with Nexai, and request access to your
-                    computer.{" "}
-                  </p>
-                </div>
+          <div className="grid lg:grid-cols-2 pt-10 sm:pt-20 max-h-[650px] sm:max-h-[576px] my-scroll  overflow-y-scroll">
+            <div className="flex flex-col max-lg:items-center">
+              <div className="max-w-[364px] group  bg-white px-6 pt-[30px] pb-11 rounded-2xl mb-5 sm:mb-10 md:mb-20 lg:mb-[175px]">
+                <Satting />
+                <p className=" font-recharge group-hover:text-[#02CDCF] duration-300 font-bold text-xl leading-[32px] text-[#0B1010] pt-[30px]">
+                  Remote Access and File Management
+                </p>
+                <p className=" font-normal text-base font-poppins leading-[25px] pt-[10px]">
+                  {" "}
+                  Imagine you're at work, and you realize you forgot to bring an
+                  important file stored on your desktop computer at home. No
+                  worries! Simply open the Nexai app on your phone, initiate a
+                  call with Nexai, and request access to your computer.{" "}
+                </p>
               </div>
-              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
-                <div className=" sm:py-6 py-2 sm:px-8 px-2">
-                  <Satting />
-                  <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
-                    Remote Access and File Management
-                  </p>
-                  <p className=" text-bace leading-[25px] font-normal font poppins max-w-[316px] pt-[10px] pb-3">
-                    {" "}
-                    Imagine you're at work, and you realize you forgot to bring
-                    an important file stored on your desktop computer at home.
-                    No worries! Simply open the Nexai app on your phone,
-                    initiate a call with Nexai, and request access to your
-                    computer.{" "}
-                  </p>
-                </div>
-              </div>
-              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
-                <div className=" sm:py-6 py-2 sm:px-8 px-2">
-                  <Satting />
-                  <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
-                    Remote Access and File Management
-                  </p>
-                  <p className=" text-bace leading-[25px] font-normal font poppins max-w-[316px] pt-[10px] pb-3">
-                    {" "}
-                    Imagine you're at work, and you realize you forgot to bring
-                    an important file stored on your desktop computer at home.
-                    No worries! Simply open the Nexai app on your phone,
-                    initiate a call with Nexai, and request access to your
-                    computer.{" "}
-                  </p>
-                </div>
-              </div>
-              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] max-h-[400px] mt-[50px] sm:mt-[144px] rounded-[16px] border bg-[#fff]">
-                <div className=" sm:py-6 py-2 sm:px-8 px-2">
-                  <Satting />
-                  <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
-                    Remote Access and File Management
-                  </p>
-                  <p className=" text-bace leading-[25px] font-normal font poppins max-w-[316px] pt-[10px] pb-3">
-                    {" "}
-                    Imagine you're at work, and you realize you forgot to bring
-                    an important file stored on your desktop computer at home.
-                    No worries! Simply open the Nexai app on your phone,
-                    initiate a call with Nexai, and request access to your
-                    computer.{" "}
-                  </p>
-                </div>
+              <div className="max-w-[364px] group duration-300 bg-white px-6 pt-[30px] pb-11 rounded-2xl">
+                <Massage />
+                <p className=" font-recharge group-hover:text-[#02CDCF] duration-300 font-bold text-xl leading-[32px] text-[#0B1010] pt-[30px]">
+                  Autonomous and Natural Language Communication
+                </p>
+                <p className=" font-normal text-base font-poppins leading-[25px] pt-[10px]">
+                  {" "}
+                  Nexai goes beyond standard home assistants by taking proactive
+                  initiatives and engaging in natural language conversations. It
+                  communicates with you as if you're talking to a friend,{" "}
+                </p>
               </div>
             </div>
-            <div className=" col-span-1 flex justify-end flex-col items-end">
-              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[190px] max-h-[400px] rounded-[16px] border bg-[#fff]">
-                <div className=" sm:py-6 py-2 sm:px-8 px-2">
-                  <Clock />
-                  <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
-                    Real-time Home Monitoring
-                  </p>
-                  <p className=" text-bace leading-[25px] font-normal font poppins max-w-[316px] pt-[10px] pb-3">
-                    {" "}
-                    While you're out with your family, you may wonder if you
-                    remembered to turn off the stove. Thanks to Nexai, this is
-                    no longer a concern. Using the Nexai app, you can initiate a
-                    video call with Nexai and activate the mini drone stationed
-                    in your home.{" "}
-                  </p>
-                </div>
+            <div className="flex flex-col max-sm:mt-5 max-md:mt-20 max-lg:mt-[175px] lg:pt-[300px] items-center lg:items-end">
+              <div className="max-w-[364px] group duration-300 bg-white px-6 pt-[30px] pb-11 rounded-2xl mb-5 sm:mb-10 md:mb-20 lg:mb-[175px]">
+                <Clock />
+                <p className=" font-recharge group-hover:text-[#02CDCF] duration-300 font-bold text-xl leading-[32px] text-[#0B1010] pt-[30px]">
+                  Real-time Home Monitoring
+                </p>
+                <p className="font-normal text-base font-poppins leading-[25px] pt-[10px]">
+                  {" "}
+                  While you're out with your family, you may wonder if you
+                  remembered to turn off the stove. Thanks to Nexai, this is no
+                  longer a concern. Using the Nexai app, you can initiate a
+                  video call with Nexai and activate the mini drone stationed in
+                  your home.{" "}
+                </p>
               </div>
-              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
-                <div className=" sm:py-6 py-2 sm:px-8 px-2">
-                  <Clock />
-                  <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
-                    Real-time Home Monitoring
-                  </p>
-                  <p className=" text-bace leading-[25px] font-normal font poppins max-w-[316px] pt-[10px] pb-3">
-                    {" "}
-                    While you're out with your family, you may wonder if you
-                    remembered to turn off the stove. Thanks to Nexai, this is
-                    no longer a concern. Using the Nexai app, you can initiate a
-                    video call with Nexai and activate the mini drone stationed
-                    in your home.{" "}
-                  </p>
-                </div>
-              </div>
-              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
-                <div className=" sm:py-6 py-2 sm:px-8 px-2">
-                  <Clock />
-                  <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
-                    Real-time Home Monitoring
-                  </p>
-                  <p className=" text-bace leading-[25px] font-normal font poppins max-w-[316px] pt-[10px] pb-3">
-                    {" "}
-                    While you're out with your family, you may wonder if you
-                    remembered to turn off the stove. Thanks to Nexai, this is
-                    no longer a concern. Using the Nexai app, you can initiate a
-                    video call with Nexai and activate the mini drone stationed
-                    in your home.{" "}
-                  </p>
-                </div>
-              </div>
-              <div className=" z-10 relative hover:scale-90 duration-300 max-w-[364px] mt-[50px] sm:mt-[144px] max-h-[400px] rounded-[16px] border bg-[#fff]">
-                <div className=" sm:py-6 py-2 sm:px-8 px-2">
-                  <Clock />
-                  <p className=" text-[20px] leading-[32px] font-bold font-recharge text-black sm:pt-[30px] pt-0">
-                    Real-time Home Monitoring
-                  </p>
-                  <p className=" text-bace leading-[25px] font-normal font poppins max-w-[316px] pt-[10px] pb-3">
-                    {" "}
-                    While you're out with your family, you may wonder if you
-                    remembered to turn off the stove. Thanks to Nexai, this is
-                    no longer a concern. Using the Nexai app, you can initiate a
-                    video call with Nexai and activate the mini drone stationed
-                    in your home.{" "}
-                  </p>
-                </div>
+              <div className="max-w-[364px] group duration-300 bg-white px-6 pt-[30px] pb-11 rounded-2xl">
+                <Line />
+                <p className=" font-recharge group-hover:text-[#02CDCF] duration-300 font-bold text-xl leading-[32px] text-[#0B1010] pt-[30px]">
+                  Intelligent Contextual Awareness
+                </p>
+                <p className="font-normal text-base font-poppins leading-[25px] pt-[10px]">
+                  Nexai utilizes the hardware sensors placed throughout your
+                  home to understand your location and deliver relevant
+                  information or actions. For instance, if you're in the bedroom
+                  and there's a smart TV present, Nexai will automatically
+                  display on the TV screen.{" "}
+                </p>
               </div>
             </div>
           </div>
