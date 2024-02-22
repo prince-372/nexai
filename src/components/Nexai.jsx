@@ -35,7 +35,7 @@ const Nexai = () => {
                 accessing files on your home computer from anywhere, Nexai
                 empowers you with effortless control.
               </p>
-              <div className=" mt-[40px] ">
+              <div className=" sm:mt-[40px] mt-2">
                 <Commanbtn text="Learn More" />
               </div>
             </div>

@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundSize:{
+        BgSize:"100% 100%",
+      },
       boxShadow: {
         cardshodow: "0px 3px 8px 0px rgba(2, 205, 207, 0.16)",
       },

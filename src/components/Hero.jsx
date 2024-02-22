@@ -5,7 +5,7 @@ import Mynav from "./Mynav";
 function Hero() {
   return (
     <div className="lg:px-12 px-5 relative z-[1] min-h-screen overflow-hidden">
-      <div className="sm:pt-[13px] pt-0 bg-bg-hero flex bg-center flex-col bg-cover xl:bg-BgSize object-cover bg-no-repeat min-h-[95vh] z-10">
+      <div className="sm:pt-[13px] pt-0 bg-bg-hero flex bg-center flex-col max-lg:bg-cover lg:bg-BgSize object-cover bg-no-repeat min-h-[95vh] z-10">
         <Mynav />
         <div className="flex-grow flex justify-center flex-col" id="home">
           <div className="max-w-[1140px] px-3 xl:pl-36 ">
@@ -13,11 +13,13 @@ function Hero() {
               <span className=" text-[#02CDCF] ">Nexai</span> is an advanced
               AI-powered home assistant
             </h2>
-            <p className="font-poppins font-normal text-sm sm:text-base text-[#b3b7bb] pt-3 sm:pb-12 pb-2">
+            <p className="font-poppins font-normal text-sm sm:text-base text-[#b3b7bb] pt-3 sm:pb-14 pb-2">
               Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla
               odio.
             </p>
-            <Commanbtn text="Know More" />
+            <div className="">
+              <Commanbtn text="Know More" />
+            </div>
           </div>
         </div>
       </div>
@@ -27,4 +29,4 @@ function Hero() {
     </div>
   );
 }
-export default Hero
+export default Hero;
