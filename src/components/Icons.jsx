@@ -27,7 +27,7 @@ export const Massage = () => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M35.6243 39.5714H23.2491V30.4286H38.9993V21.2859H47.9995V39.5714H42.3744L38.9993 42.9999L35.6243 39.5714Z"
+          d="M35.6243 39.5714H23.2491V30.4286H38.9993V21.2859H47 9995V39.5714H42.3744L38.9993 42.9999L35.6243 39.5714Z"
           stroke="black"
           strokeWidth="4.57138"
           strokeLinecap="round"

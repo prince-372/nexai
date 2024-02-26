@@ -5,12 +5,12 @@ import Commanbtn from "./Commanbtn";
 const Assistant = () => {
   return (
     <div className="bg-[#040404] sm:pt-[80px] pt-5 relative overflow-x-clip">
-      <div className=" absolute w-[228px] h-[245px] blur-[124px] bg-[#02CDCF] right-[-10%] bottom-[30%] hidden md:block"></div>
-      <div className=" absolute w-[231px] h-[231px] blur-[153px] bg-[#02CDCF] md:left-[10%] left-[12%] md:bottom-[30%] bottom-[40%] "></div>
+      <div className=" absolute w-[228px] h-[153px] blur-[124px] bg-[#02CDCF] right-[-10%] bottom-[30%] hidden md:block"></div>
       <div className=" max-w-[1180px] px-3 mx-auto ">
         <div className=" grid md:grid-cols-2 grid-cols-1 items-center sm:gap-12 gap-0">
-          <div className=" pb-[51px] flex justify-center lg:justify-start">
+          <div className=" pb-[51px] flex justify-center lg:justify-start relative">
             <img data-aos="zoom-in" src={hand} alt="hand" />
+            <div className=" absolute w-[231px] h-[153px] blur-[153px] bg-[#02CDCF] md:left-[10%] left-[12%] md:bottom-[30%] bottom-[40%] hidden md:block"></div>
           </div>
           <div
             data-aos="zoom-in"
