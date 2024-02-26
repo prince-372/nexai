@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import img from './src/assets/image/ai-imgbg.webp'
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
