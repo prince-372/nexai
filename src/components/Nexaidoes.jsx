@@ -8,12 +8,13 @@ const Nexaidoes = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
+    cssEase:'linear',
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 0,
     responsive: [
       {
         breakpoint: 992,
@@ -37,12 +38,13 @@ const Nexaidoes = () => {
   const settings2 = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
+    cssEase:'linear',
+    autoplaySpeed: 0,
     rtl: true,
     responsive: [
       {
@@ -67,12 +69,13 @@ const Nexaidoes = () => {
   const settings3 = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
+    cssEase:'linear',
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 0,
     responsive: [
       {
         breakpoint: 992,

@@ -8,12 +8,13 @@ const Blockchain = () => {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     arrows: false,
+    cssEase: "linear",
     slidesToShow: 3.3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 0,
     responsive: [
       {
         breakpoint: 1380,
